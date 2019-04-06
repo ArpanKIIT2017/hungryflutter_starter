@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hungryflutter/Models/UIConstants.dart';
+import 'package:hungryflutter/Screens/SearchScreen.dart';
 
 void main() => runApp(MyApp());
 
@@ -29,7 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _currentIndex = 0;
   List<Widget> _children = [
     Container(),
-    Container(),
+    SearchScreen(),
     Container()
   ];
 
